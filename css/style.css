@@ -6,14 +6,14 @@ body{
 #wrapper{
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows:1fr 7fr 7fr ;
+    grid-template-rows:140px 140px 1fr ;
     height: 1fr;
     row-gap: 20px;
     gap: 20 px;
     grid-template-areas:
     " . hd . "
-    ". sc1 ."
     ". sc2 ."
+    ". sc1 ."
     
     ;
 }
@@ -27,7 +27,7 @@ header{
     align-content: center;
     background-color: #27ae60;
     justify-self: center;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 h1{
@@ -51,7 +51,7 @@ h1{
     background-color: #27ae60;
     text-decoration: none;
     align-content: center;
-    border-radius: 15px 0px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
 
 }
 
@@ -79,7 +79,7 @@ p{
     width: 1200px;
     gap: 50px;
 
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     
     
     
@@ -90,7 +90,7 @@ p{
     justify-self: center;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .box2{
@@ -98,13 +98,13 @@ p{
     background-size: cover;
     background-image: url("../img/chillguy-gID_7.webp");
 
-    width : 550px;
-    height: 1fr;
-    
-    align-items: end;
+    height: 110px;
+    width: 383px;
+
+    align-items: center;
     word-break: break-all;
-    justify-content:right;
-    border-radius: 0px 0px 15px 15px;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .box1{
@@ -118,23 +118,19 @@ p{
     width : 1200px;
     height: 1fr;
     
-    word-break: break-all
+    word-break: normal
 }
 
 .right{
     display: flex;
-    border-radius: 15px 0px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
     background-color: #27ae60;
-    height: 216px;
-    width: 350px;
 
     
 }
 
 .left{
     display: flex;
-    border-radius: 15px 0px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
     background-color: #27ae60;
-    height: 216px;
-    width: 350px;
 }
