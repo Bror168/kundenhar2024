@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background-image: url("../img/vandra-berg-katedral.jpg");
+    background-image: url(../img/backgrundsbild.png) ;
 }
 
 #wrapper{
@@ -96,7 +96,6 @@ p{
 .box2{
     display: flex;
     background-size: cover;
-    background-image: url("../img/chillguy-gID_7.webp");
 
     height: 110px;
     width: 383px;
@@ -111,6 +110,14 @@ p{
     align-self: center;
     height: 1fr;
     
+}
+
+#tips{
+    background-image: url(../img/DALL·E\ 2025-01-04\ 15.37.27\ -\ A\ captivating\ image\ representing\ the\ spirit\ of\ AdventureAtlas\,\ showcasing\ an\ adventurous\ traveler\ standing\ on\ a\ cliff\ overlooking\ a\ breathtaking\ and\ d.webp);
+}
+
+#blog{
+    background-image: url(../img/DALL·E\ 2025-01-04\ 15.29.25\ -\ A\ visually\ engaging\ image\ for\ a\ travel\ blog\ on\ a\ website.\ The\ scene\ shows\ an\ open\ notebook\ or\ journal\ lying\ on\ a\ wooden\ table\ outdoors\,\ with\ a\ scenic\ .webp);
 }
 
 .text{
@@ -133,4 +140,9 @@ p{
     display: flex;
     border-radius: 15px 15px 15px 15px;
     background-color: #27ae60;
+}
+
+#dalle{
+    width: 800px;
+    height: 1fr;
 }

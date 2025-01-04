@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background-image: url("../img/vandra-berg-katedral.jpg");
+    background-image: url(../img/backgrundsbild.png) ;
 }
 
 #wrapper{
@@ -100,8 +100,7 @@ p{
 .box1{
     display: flex;
     background-size: cover;
-    background-image: url("../img/chillguy-gID_7.webp");
-
+    
     height: 110px;
     width: 383px;
 
@@ -121,6 +120,14 @@ p{
     word-break: break-all;
 
     border-radius: 15px 15px 15px 15px;
+}
+
+#tips{
+    background-image: url(../img/DALL·E\ 2025-01-04\ 15.37.27\ -\ A\ captivating\ image\ representing\ the\ spirit\ of\ AdventureAtlas\,\ showcasing\ an\ adventurous\ traveler\ standing\ on\ a\ cliff\ overlooking\ a\ breathtaking\ and\ d.webp);
+}
+
+#hem{
+    background-image: url(../img/DALL·E\ 2025-01-04\ 15.10.25\ -\ An\ adventurous\ and\ inspiring\ image\ for\ a\ travel\ brand\ named\ AdventureAtlas.\ The\ scene\ features\ a\ hiker\ standing\ on\ a\ dramatic\ mountain\ peak\ during\ sun.webp) ;
 }
 
 .text{

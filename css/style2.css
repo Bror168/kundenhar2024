@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background-image: url("../img/vandra-berg-katedral.jpg");
+    background-image: url(../img/backgrundsbild.png) ;
 }
 
 #wrapper{
@@ -100,8 +100,7 @@ p{
 .box1{
     display: flex;
     background-size: cover;
-    background-image: url("../img/chillguy-gID_7.webp");
-
+    
     height: 110px;
     width: 383px;
 
@@ -122,6 +121,14 @@ p{
     border-radius: 15px 15px 15px 15px;
 
     word-break: normal
+}
+
+#blog{
+    background-image: url(../img/DALL·E\ 2025-01-04\ 15.29.25\ -\ A\ visually\ engaging\ image\ for\ a\ travel\ blog\ on\ a\ website.\ The\ scene\ shows\ an\ open\ notebook\ or\ journal\ lying\ on\ a\ wooden\ table\ outdoors\,\ with\ a\ scenic\ .webp);
+}
+
+#hem{
+    background-image: url(../img/DALL·E\ 2025-01-04\ 15.10.25\ -\ An\ adventurous\ and\ inspiring\ image\ for\ a\ travel\ brand\ named\ AdventureAtlas.\ The\ scene\ features\ a\ hiker\ standing\ on\ a\ dramatic\ mountain\ peak\ during\ sun.webp) ;
 }
 
 .text{
