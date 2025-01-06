@@ -42,7 +42,7 @@ h1{
     
 }
 
-.right a, .left a{
+.runda a{
     flex: 1;
     color: navajowhite;
     -webkit-text-stroke-width: 1.8px;
@@ -56,7 +56,7 @@ h1{
 
 }
 
-.right a:hover, .left a:hover{
+.runda a:hover{
     background-color: navajowhite;
     color: #27ae60;
 }
@@ -123,11 +123,11 @@ p{
 }
 
 #tips{
-    background-image: url(../img/DALL·E\ 2025-01-04\ 15.37.27\ -\ A\ captivating\ image\ representing\ the\ spirit\ of\ AdventureAtlas\,\ showcasing\ an\ adventurous\ traveler\ standing\ on\ a\ cliff\ overlooking\ a\ breathtaking\ and\ d.webp);
+    background-image: url(../img/blog.jpg)
 }
 
 #hem{
-    background-image: url(../img/DALL·E\ 2025-01-04\ 15.10.25\ -\ An\ adventurous\ and\ inspiring\ image\ for\ a\ travel\ brand\ named\ AdventureAtlas.\ The\ scene\ features\ a\ hiker\ standing\ on\ a\ dramatic\ mountain\ peak\ during\ sun.webp) ;
+    background-image: url(../img/hem.jpg) ;
 }
 
 .text{
@@ -138,7 +138,7 @@ p{
     word-break: break-all
 }
 
-.right{
+.runda{
     display: flex;
     border-radius: 15px 15px 15px 15px;
     background-color: #27ae60;
@@ -146,10 +146,6 @@ p{
     
 }
 
-.left{
-    display: flex;
-    border-radius: 15px 15px 15px 15px;
-    background-color: #27ae60;
-}
+
 
 
