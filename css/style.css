@@ -3,7 +3,7 @@ body{
     background-image: url(../img/backgrundsbild.png) ;
 }
 
-#wrapper{
+#hem_wrapper{
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
     grid-template-rows:140px 140px 1fr ;
@@ -12,8 +12,38 @@ body{
     gap: 20 px;
     grid-template-areas:
     " . hd . "
-    ". sc2 ."
-    ". sc1 ."
+    ". nav ."
+    ". hem ."
+    
+    ;
+}
+
+#tips_wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:140px 140px 1fr ;
+    height: 1fr;
+    row-gap: 20px;
+    gap: 20 px;
+    grid-template-areas:
+    " . hd . "
+    ". nav ."
+    ". tips ."
+    
+    ;
+}
+
+#blog_wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:140px 140px 1fr ;
+    height: 1fr;
+    row-gap: 20px;
+    gap: 20 px;
+    grid-template-areas:
+    " . hd . "
+    ". nav ."
+    ". blog ."
     
     ;
 }
@@ -32,7 +62,7 @@ header{
 
 h1{
     justify-self: center;
-    color: navajowhite;
+    color: #000000;
     -webkit-text-stroke-width: 1.8px;
     -webkit-text-stroke-color: forestgreen;
     font-size: 3rem;
@@ -43,9 +73,9 @@ h1{
 
 .runda a{
     flex: 1;
-    color: navajowhite;
+    color: #000000;
     -webkit-text-stroke-width: 1.8px;
-    -webkit-text-stroke-color: forestgreen;
+    -webkit-text-stroke-color: #228b22;
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif ;
     background-color: #27ae60;
@@ -56,19 +86,19 @@ h1{
 }
 
 .runda a:hover{
-    background-color: navajowhite;
+    background-color: #000000;
     color: #27ae60;
 }
 
 p{
-    color: navajowhite;
+    color: #000000;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif ;
 }
 
-#sc1{
+#hem_info{
 
-    grid-area: sc1;
+    grid-area: hem;
     justify-self: center;
     background-color: #27ae60;
 
@@ -76,7 +106,7 @@ p{
     flex-direction: column;
     justify-content: space-evenly;
 
-    width: 1200px;
+    width: 1250px;
     gap: 50px;
 
     border-radius: 15px 15px 15px 15px;
@@ -85,15 +115,37 @@ p{
     
 }
 
-#sc2{
-    grid-area: sc2;
+#tips_info{
+    grid-area: tips;
     justify-self: center;
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.box2{
+#blog_info{
+    grid-area: blog;
+    flex-direction: column;
+    display: flex;
+    
+    gap: 50px;
+}
+
+nav{
+    grid-area: nav;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bild_box{
+    align-self: center;
+    height: 1fr;
+    
+}
+
+.nav_box{
     display: flex;
     background-size: cover;
 
@@ -106,11 +158,36 @@ p{
     border-radius: 15px 15px 15px 15px;
 }
 
-.box1{
-    align-self: center;
+.tips_box{
+    display: flex;
+    background-color: #27ae60;
+    
+    width : 343px;
     height: 1fr;
+    word-break: break-all;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+    
+    padding: 20px;
+    word-break: normal
     
 }
+
+.blog_box{
+    display: flex;
+    background-color: #27ae60;
+    justify-content: center;
+    
+    height: 1fr;
+    width: 1210px;
+    word-break: break-all;
+
+    border-radius: 15px 15px 15px 15px;
+
+    padding: 20px;
+}
+
+
 
 #tips{
     background-image: url(../img/blog.jpg)
@@ -120,10 +197,15 @@ p{
     background-image: url(../img/DALL·E\ 2025-01-04\ 15.29.25\ -\ A\ visually\ engaging\ image\ for\ a\ travel\ blog\ on\ a\ website.\ The\ scene\ shows\ an\ open\ notebook\ or\ journal\ lying\ on\ a\ wooden\ table\ outdoors\,\ with\ a\ scenic\ .webp);
 }
 
+#hem{
+    background-image: url(../img/hem.jpg) ;
+}
+
 .text{
     background-color: #27ae60;
-    width : 1200px;
+    width : 1210px;
     height: 1fr;
+    padding: 20px;
     
     word-break: normal
 }
